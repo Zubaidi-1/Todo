@@ -5,6 +5,8 @@ import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
 import VerifyOtp from "../pages/VerifyOtp";
 import UserData from "../pages/UserData";
+import ForgotPassword from "../pages/ForgotPassword";
+import HomePage from "../pages/HomePage";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/verifyOTP" element={<VerifyOtp />} />
         <Route path="/userdata" element={<UserData />} />
+        <Route path="/forgotPass" element={<ForgotPassword />} />
+        <Route path="/homepage" element={<HomePage />} />
       </Routes>
     </HashRouter>
   );
